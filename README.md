@@ -370,8 +370,10 @@ void Logger::log(const std::string& message) {
     std::strftime(buffer, sizeof(buffer), "%Y-%m-%d %H:%M:%S", std::localtime(&now));
     log_file << buffer << ": " << message << std::endl;
 }
-[5:03 pm, 8/8/2024] Jimmy George: client.cpp
-[5:03 pm, 8/8/2024] Jimmy George: #include <iostream>
+
+#### client.cpp
+```bash
+#include <iostream>
 #include <fstream>
 #include <cstring>
 #include <sys/socket.h>
@@ -475,17 +477,29 @@ int main() {
 ```
 ## Contributing
 
-If you would like to contribute to this project, please fork the repository and submit a pull request. **For major changes, please open an issue to discuss what you would like to change.**
+- If you would like to contribute to this project, please fork the repository and submit a pull request. **For major changes, please open an issue to discuss what you would like to change.**
 
 ## License
 
-This **'Network File Sharing'** project is licensed under the our group - see the LICENSE file for details.
+- This **'Network File Sharing'** project is licensed under the our group - see the LICENSE file for details.
 
 ## References
 
-1.  [Boost.Asio Documentation](#features)
-2.  [Features](#features)
-3.  [Training](#features)
-4.  [Youtube](#features)
-5.  [Google](#features)
+- [Boost.Asio Documentation](#features)
+- [Features](#features)
+- [Training](#features)
+- [Youtube](#features)
+- [Google](#features)
 
+## Support
+
+- Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+  
+## Roadmap
+
+- If you have ideas for releases in the future, it is a good idea to list them in the README.
+  
+## Contributing
+
+State if you are open to contributions and what your requirements are for accepting them.
+For people who want to make changes to your project, it's helpful …
