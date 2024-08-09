@@ -45,19 +45,19 @@ Thank you, Sir, for your continuous encouragement and for sharing your knowledge
 
 ## Features
 
-### Multi-Client Support
+### 1. Multi-Client Support
 - **Concurrent Connections**: The server can manage multiple client connections simultaneously, thanks to its multi-threaded architecture.
 
-### File Transfer
+### 2. File Transfer
 - **Cross-Platform File Sharing**: Clients can send files to the server from any supported platform. The server saves these files securely for further use.
 
-### Real-Time Messaging
+### 3. Real-Time Messaging
 - **Instant Messaging**: Clients can send real-time text messages to the server, which can be logged and reviewed later.
 
-### Comprehensive Logging
+### 4. Comprehensive Logging
 - **Timestamped Logs**: All actions, including file transfers and messages, are logged with precise timestamps to ensure traceability.
 
-### Cross-Platform Compatibility
+### 5. Cross-Platform Compatibility
 - **Operating System Independence**: The project is compatible with both Windows and Linux environments, ensuring broad accessibility.
 
 ## System Architecture
@@ -69,13 +69,13 @@ The architecture of this project follows a client-server model, where the server
 
 ## System Requirements
 
-### Operating System
+### 1. Operating System
 - **Windows 10/11** or **Linux (Ubuntu recommended)**
 
-### Compiler
+### 2. Compiler
 - **GCC** or **MSVC** (supporting C++11 or later)
 
-### Libraries
+### 3. Libraries
 - **Boost.Asio**: For handling networking operations.
 - **pthread**: For implementing multi-threading.
 
