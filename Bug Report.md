@@ -8,7 +8,7 @@
 - **Date:** 2024-08-07  
 - **Status:** Open  
 - **Priority:** Medium  
-- **Severity:** Major  
+- **Severity:** Major 
 - **Assigned to:** To be assigned
 
 ## 1. Bug Details
