@@ -13,8 +13,8 @@
 
 ## 1. Bug Details
 
-**Bug ID:** A-2024-08-07 
-**Title:** Password Authentication Not Working Properly
+- **Bug ID:** A-2024-08-07 
+- **Title:** Password Authentication Not Working Properly
 
 ### Description
 - The password authentication mechanism in the server is not functioning as expected. Users are either unable to authenticate successfully, or the server allows access even with incorrect passwords. This issue compromises the security of the network file-sharing system.
@@ -74,8 +74,8 @@ git push origin your-branch-name
 
 ## 2. Bug Details
 
-**Bug ID:** B-2024-08-09  
-**Title:** File Not Received at Server End Despite Successful Transfer
+- **Bug ID:** B-2024-08-09  
+- **Title:** File Not Received at Server End Despite Successful Transfer
 
 ### Description
 - There is an issue where the server does not correctly receive files, even though the client indicates that the file has been sent successfully. This leads to missing files on the server side, causing disruptions in file availability and integrity.
