@@ -300,7 +300,7 @@ int main() {
     return 0;
 }
 ```
-#### 2. Server
+#### 2. Client
 ##### Logger.h
 ```bash
 #ifndef LOGGER_H
