@@ -74,7 +74,7 @@ git push origin your-branch-name
 
 ## 2. Bug Details
 
-**Bug ID:** A-2024-08-08  
+**Bug ID:** B-2024-08-08  
 **Title:** Server Crashes When Receiving Large Files  
 
 ### Description
@@ -175,7 +175,7 @@ void handleClient(int clientSocket, std::string clientIP) {
 3. Add and commit the file:
 ```bash
 git add BUG_REPORT.md
-git commit -m "Add bug report for NFS-2024-001: Server crashes when receiving large files"
+git commit -m "Add bug report for B-2024-08-08  : Server crashes when receiving large files"
 ```
 4. Push the changes to the repository:
 ```bash
