@@ -1,13 +1,26 @@
 # Network File Sharing
-
 ## Project Overview
 
 **Network File Sharing** is a robust and efficient C++ application designed for transferring files and messages between multiple clients and a central server. The server operates as a hub, accepting connections and facilitating communication between connected clients. This project showcases key networking principles and multi-threading in C++, making it an ideal demonstration of practical client-server interaction.
 
-### Project Team Members 
-- *Jimmy George*
-- *Nitya Patil K S*
-- *Gourav Soni*
+### Project Team Members :
+1. *Jimmy George*
+2. *Nitya Patil K S*
+3. *Gourav Soni*
+   
+## Thanks Note : Trainer - **Shweatank Sir**
+#### Thank You,
+We would like to express our sincere gratitude to **Shweatank Sir** for his invaluable guidance and support throughout the development of this project. Under his mentorship, we have gained in-depth knowledge and practical experience in the following areas:
+
+- **IPC (Inter-Process Communication):** Understanding various methods for processes to communicate and synchronize their actions.
+- **POSIX Sockets:** Learning about network communication using POSIX-compliant socket programming.
+- **Code Execution:** Gaining insights into efficient code execution and management.
+- **Logger:** Implementing logging mechanisms to track and record application behavior and debugging.
+- **Security:** Learning best practices and methodologies for securing communication and data.
+- **Testing:** Understanding the importance of rigorous testing and how to implement it effectively.
+- **Cloud GitLab:** Using cloud-based GitLab for code implementation, version control, and continuous integration/continuous deployment (CI/CD) pipelines.
+
+Thank you, Sir, for your continuous encouragement and for sharing your knowledge with us.
 
 ## Table of Contents
 
@@ -20,17 +33,15 @@
     - [Starting the Server](#starting-the-server)
     - [Connecting the Client](#connecting-the-client)
     - [File Transfer](#file-transfer)
-    - [Messaging](#messaging)
 7. [Example Run](#example-run)
 8. [Log Management](#log-management)
-9. [Security Considerations](#security-considerations)
-10. [Contributing](#contributing)
-11. [License](#license)
-12. [References](#references)
+9. [Contributing](#contributing)
+10. [License](#license)
+11. [References](#references)
 
 ## Introduction
 
-The **Network File Sharing** project provides a simple yet effective way to demonstrate client-server communication using C++. The server can manage multiple clients simultaneously, allowing them to send files and exchange messages. This README will guide you through setting up, using, and understanding the project's core functionalities.
+- The **Network File Sharing** project provides a simple yet effective way to demonstrate client-server communication using C++. The server can manage multiple clients simultaneously, allowing them to send files and exchange messages. This README will guide you through setting up, using, and understanding the project's core functionalities.
 
 ## Features
 
@@ -144,11 +155,11 @@ Replace <server_ip> with the IP address of the server and <port> with the port n
 [2024-08-08 12:05:05] Message sent: "Hello, Server!"
 ```
 
- ## Log Management
+## Log Management
      1. All server logs are stored in server.log and client logs in client.log.
      2. Logs include detailed timestamps for every event.
     
- ### Use of Logger Tool
+### Use of Logger Tool
 
 #### 1. Server
 ##### Logger.h
@@ -499,7 +510,3 @@ int main() {
 
 - If you have ideas for releases in the future, it is a good idea to list them in the README.
   
-## Contributing
-
-State if you are open to contributions and what your requirements are for accepting them.
-For people who want to make changes to your project, it's helpful …
