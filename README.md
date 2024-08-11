@@ -156,8 +156,8 @@ Replace <server_ip> with the IP address of the server and <port> with the port n
 ```
 
 ## Log Management
-     1. All server logs are stored in server.log and client logs in client.log.
-     2. Logs include detailed timestamps for every event.
+     1. All server logs are stored in log.txt and client logs in log.txt
+     2. Logs include detailed timestamps for every execution done after succesfull connection by 'server' and 'client' side.
     
 ### Use of Logger Tool
 
