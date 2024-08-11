@@ -359,9 +359,9 @@ void Logger::log(const std::string& message) {
 ```
 ##### client.h
 ```bash
-[5:03 pm, 8/8/2024] Jimmy George: #include "Logger.h"
+#include "Logger.h"
 #include <iostream>
-#include <ctime>
+#include <ctime> 
 
 Logger::Logger(const std::string& filename) : log_file(filename, std::ios::app) {
     if (!log_file.is_open()) {
