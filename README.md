@@ -140,19 +140,19 @@ Replace <server_ip> with the IP address of the server and <port> with the port n
 
 [2024-08-08 12:04:15] Connection accepted from 172.20.0.45:8080
 [2024-08-08 12:04:30] Received file 'test.txt' from 172.20.0.44
-[2024-08-08 12:05:10] Message received: "Hello, Server this side nithya!"
+[2024-08-08 12:05:10] Message received: "Hello, Server this side Nithya!"
 ```
 ### Client Output :
 ```bash
 [2024-08-08 12:0:00] Connected to server at 172.20.0.45:8080
 [2024-08-08 12:02:25] Sending file 'text.txt'
-[2024-08-08 12:02:30] File 'text.txt' sent successfully
-[2024-08-08 12:03:00] Message sent: "Hello, Server this side jimmy!"
+[2024-08-08 12:02:30] File 'text.txt' sent successfully.
+[2024-08-08 12:03:00] Message sent: "Hello, Server this side Jimmy!"
 
 [2024-08-08 12:04:10] Connected to server at 172.20.0.45:8080
-[2024-08-08 12:04:15] Sending file 'example.txt'
-[2024-08-08 12:02:26] File 'example.txt' sent successfully
-[2024-08-08 12:05:05] Message sent: "Hello, Server!"
+[2024-08-08 12:04:15] Sending file 'test.txt'
+[2024-08-08 12:02:26] File 'test.txt' sent successfully.
+[2024-08-08 12:05:05] Message sent: "Hello, Server this side Nithya !"
 ```
 
 ## Log Management
