@@ -73,7 +73,7 @@ int main() {
     // Connect to server
     serverAddr.sin_family = AF_INET;
     serverAddr.sin_port = htons(PORT);
-    if (inet_pton(AF_INET, "127.0.0.1", &serverAddr.sin_addr) <= 0) {
+    if (inet_pton(AF_INET, "172.20.0.45", &serverAddr.sin_addr) <= 0) {
         std::cerr << "Invalid address/Address not supported." << std::endl;
         return -1;
     }
